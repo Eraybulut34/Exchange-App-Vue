@@ -71,7 +71,7 @@ export default {
   },
   generate: {
     fallback: true,
-    dir: 'Çevirici'
+    dir: 'public'
   }
 
 }
