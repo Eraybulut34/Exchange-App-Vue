@@ -64,11 +64,7 @@ export default {
   },
   async beforeMount() {
     let resp = await this.$axios.get(
-<<<<<<< HEAD
       'http://api.exchangeratesapi.io/v1/latest?access_key=cb94507b17b167c53ef1dbf732a9228f'
-=======
-      'https://api.exchangeratesapi.io/v1/latest?access_key=5b429001221c9a7bee86c78b773a5cb5'
->>>>>>> 06eaf4a5aa6e73a843634092125b93b79f1f10c3
     )
     this.rates = resp.data
 
