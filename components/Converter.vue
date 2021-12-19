@@ -62,7 +62,7 @@ export default {
   },
   async beforeMount() {
     let resp = await this.$axios.get(
-      'http://api.exchangeratesapi.io/v1/latest?access_key=5b429001221c9a7bee86c78b773a5cb5'
+      'https://api.exchangeratesapi.io/v1/latest?access_key=5b429001221c9a7bee86c78b773a5cb5'
     )
     this.rates = resp.data
 
